@@ -18,4 +18,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.8'
   spec.tvos.deployment_target = '9.0'
+  
+  s.resource_bundles = {'pop' => ['pop/PrivacyInfo.xcprivacy']}
 end
